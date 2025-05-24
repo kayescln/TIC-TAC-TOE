@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "tictactoe-games",
+    "slug": "tictactoe-games",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/CNVVCvl.png",
+    "scheme": "tictactoegames",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/CNVVCvl.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.jonaganda.tictactoegames"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/CNVVCvl.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/CNVVCvl.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c635dc7f-ebe0-46ae-b468-fb713c99c019"
+      }
+    }
+  }
+}
